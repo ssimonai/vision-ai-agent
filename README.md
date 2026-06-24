@@ -3,7 +3,7 @@
 ## Installation
 
 ### Requirements
-- ffmpeg (system dependency)
+- FFmpeg (system dependency)
 - Python 3.10+
 - GPU with CUDA support recommended
 
