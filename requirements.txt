@@ -1,6 +1,6 @@
 numpy>=1.20.0
-torch>=2.0.0
-torchvision>=0.15.0
+torch>=2.5.1
+torchvision>=0.20.1
 scipy>=1.10.0
 opencv-python>=4.5.0
 Pillow>=9.0.0
@@ -13,4 +13,3 @@ langchain-anthropic>=0.1.0
 pydantic>=2.0.0
 easyocr>=1.6.0
 tqdm>=4.65.0
--e git+https://github.com/facebookresearch/sam2.git@2b90b9f5ceec907a1c18123530e92e794ad901a4#egg=sam2
