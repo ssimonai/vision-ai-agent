@@ -15,4 +15,8 @@ See our paper on [arXiv](https://arxiv.org/abs/2606.18294).
 pip install -r requirements.txt
 ```
 
-**Note:** SAM2 is installed from a specific commit (`2b90b9f`) to ensure reproducibility with the version used in this work. For more details on installing SAM2, please see the [SAM2 GitHub repository](https://github.com/facebookresearch/sam2).
+The AI agent pipeline is in `content/cv-pipeline-clean.ipynb` (note that an Anthropic API key is necessary for usage); code for performing the physics-based analysis of the extracted diameters can be found in `content/physics-analysis-clean.ipynb`. A pickle file with pressure and diameter data for both tests---for use in the analysis---is available in `content/AllHoustontestingdata_May2026_v20260506.pkl`.
+
+**Note:** SAM2 can be installed from a specific commit (`2b90b9f`) to ensure reproducibility with the version used in this work. For more details on installing SAM2, please see the [SAM2 GitHub repository](https://github.com/facebookresearch/sam2).
+
+**Note:** Due to the sizes of the original video files (~1GB each), 2.5min trimmed clips are available for use with the pipeline in `content/trimmed_vids`; note that these clips are each roughly 75MB. If interested in acquiring the original files, please reach out to Sonata Simonaitis-Boyd ([sonata@ucsd.edu](mailto:sonata@ucsd.edu)) or Alexander Leder ([aleder@lanl.gov](mailto:aleder@lanl.gov)).
